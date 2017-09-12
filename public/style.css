@@ -1,0 +1,161 @@
+.cal_window{
+  border: 1px solid lightgrey;
+  margin-left: 0.1%;
+  border-radius: 2px;
+  width: 12.9%;
+  margin-bottom:1px;
+  height: 110px;
+  float: left;
+  cursor: pointer;
+  /*line-height: 40px;*/
+  /*text-align: center;*/
+  padding: 5px;
+}
+
+.backbutton{
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: lightgreen;
+
+}
+
+.event_title{
+  font-weight: bolder;
+  border-bottom: grey 1px solid;
+}
+
+.cal_blank_window{
+  /*border: 1px solid lightgrey;*/
+  padding: 5px;
+  margin-left: 0.1%;
+  /*margin-right: 2px;*/
+  border-radius: 2px;
+  width: 12.9%;
+  height: 110px;
+  float: left;
+  margin-bottom:1px;
+
+  line-height: 100px;
+  text-align: center;
+}
+
+.clearfix{
+  clear:both;
+}
+
+.weekend{
+  background: #E7FFE7
+}
+.prevMonth{
+  background: #f5f5f5;
+}
+
+.cal_wrp{
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.cal-h-window{
+  border-radius: 5px;
+  width: 11.9%;
+  height: 30px;
+  /*border: 1px solid lightblue;*/
+  float: left;
+  margin-left: 1%;
+  /*text-align: center;*/
+  line-height: 30px;
+  padding: 5px;
+}
+
+.today{
+  background:yellow;
+  !important
+}
+
+.current-month-hdr{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 15px;
+}
+.cal_win_wrp{
+  clear:both;
+}
+
+.cal_inr_wrp{
+  margin: 0 auto;
+  overflow: auto;
+  /*border: pink 1px solid;*/
+  width: 75%;
+}
+
+.cal_header_wrp{
+  margin: 0 auto 10px auto;
+  overflow: auto;
+  /*border: green 1px solid;*/
+
+}
+
+.current_month_arrow_left{
+  float: left;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.current_month_arrow_right{
+  float: right;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.current-month-hdr{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 15px;
+  float: left;
+  width: 340px;
+}
+.current_month_outer{
+  overflow: auto;
+  width: 55%;
+  margin: 0 auto;
+}
+
+/*calender individual day*/
+
+.cal_day_wrap{
+  border: red 1px solid;
+  /*height: 400px;*/
+  width: 800px;
+  margin: 0 auto;
+}
+.cal_day_inner{
+  border: blue 1px solid;
+}
+.cal_day_title{
+  line-height: 40px;
+  border: green 1px solid;
+  height: 40px;
+}
+.cal_day_content{
+  border: pink 1px solid;
+  min-height: 700px
+}
+
+.cdt_prev{
+  cursor: pointer;
+  float: left;
+  margin-left: 40px;
+}
+
+.cdt_next{
+  cursor: pointer;
+  float: right;
+  margin-right: 40px;
+}
+
+.cdt_main{
+  float: left;
+  width: 79%;
+  text-align: center;
+}
